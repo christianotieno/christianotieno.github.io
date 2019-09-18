@@ -1,2 +1,2 @@
-# christianotieno.github.io
-This is my portfolio website:
+# Hi my Name is Christian Otieno
+## Portfolio website coming soon.
