@@ -1,3 +1,3 @@
-# Hi my Name is Christian Otieno
+# Hi my name is Christian Otieno
 
 ## Portfolio website coming soon
