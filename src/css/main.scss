@@ -1,0 +1,78 @@
+$font-stack:  Calibre, sans-serif;
+$primary-color: #fff;
+$red-color: #b80f0a;
+$blue-color:  #030633;
+
+body {
+  background: url('../assets/img/coming_soon.png');
+  font-family: $font-stack;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 42px;
+  line-height: 56px;
+  color: #030633;
+
+  #header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    height: 8vh;
+
+    a:hover {
+      color: red;
+    }
+
+    .nav-link {
+      color: $red-color;
+      font-weight: 700;
+      font-style: italic;
+    }
+
+    .navbar-nav {
+      width: 20vw;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  #main-landing {
+    height: 80vh;
+    border: 1px solid #000;
+    background-color: rgba(255, 0, 0, 0.5);
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #projects {
+    height: 150vh;
+    border: 1px solid #000;
+    background-color: rgba(3, 6, 51, 0.8);
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #resume {
+    height: 80vh;
+    border: 1px solid #000;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #contact {
+    height: 60vh;
+    border: 1px solid #000;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    padding: 10%;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+}
