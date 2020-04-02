@@ -4,7 +4,6 @@ $red-color: #b80f0a;
 $blue-color:  #030633;
 
 body {
-  background: url('../assets/img/coming_soon.png');
   font-family: $font-stack;
   font-weight: 400;
   font-style: normal;
@@ -17,6 +16,8 @@ body {
     justify-content: space-between;
     font-size: 30px;
     height: 8vh;
+    width: 100vw;
+    position: fixed;
 
     a:hover {
       color: red;
@@ -35,43 +36,36 @@ body {
     }
   }
 
+  .content {
+    font-style: italic;
+    color: whitesmoke;
+  }
+
   #main-landing {
     height: 80vh;
-    border: 1px solid #000;
-    background-color: rgba(255, 0, 0, 0.5);
-    display: flex;
     padding: 10%;
-    justify-content: center;
-    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(255, 0, 0, 0.5)), url('/src/assets/img/main_landing.jpg');
+    background-size: cover;
   }
 
   #projects {
     height: 150vh;
-    border: 1px solid #000;
-    background-color: rgba(3, 6, 51, 0.8);
-    display: flex;
     padding: 10%;
-    justify-content: center;
-    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(2, 0, 36, 0.6)), url('/src/assets/img/projects.jpg');
+    background-size: cover;
   }
 
   #resume {
     height: 80vh;
-    border: 1px solid #000;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
     padding: 10%;
-    justify-content: center;
-    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(2, 0, 36, 0.6), rgba(3, 6, 51, 0.8)), url('/src/assets/img/resume.jpg');
+    background-size: cover;
   }
 
   #contact {
     height: 60vh;
-    border: 1px solid #000;
-    background-color: rgba(255, 255, 255, 0.3);
-    display: flex;
     padding: 10%;
-    justify-content: center;
-    flex-direction: column;
+    background-image: linear-gradient(to bottom, rgba(3, 6, 51, 0.8), rgba(0, 0, 0, 0.5)), url('/src/assets/img/contact.jpg');
+    background-size: cover;
   }
 }
