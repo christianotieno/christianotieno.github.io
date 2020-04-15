@@ -1,116 +1,21 @@
-body {
-  font-family: Calibre, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 42px;
-  line-height: 56px;
-  color: #030633;
-}
-
-body #header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  font-size: 30px;
-  height: 8vh;
-  width: 100%;
-  position: fixed;
-}
-
-body #header a:hover {
-  color: red;
-}
-
-body #header .nav-link {
-  color: #b80f0a;
-  font-weight: 700;
-  font-style: italic;
-}
-
-body #header .navbar-nav {
-  width: 20vw;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-}
-
-body .content {
-  font-style: italic;
-  color: mediumturquoise;
-}
-
-body #main-landing {
-  height: 80vh;
-  color: azure;
-  margin: 0;
-  padding-top: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.52)), to(rgba(255, 0, 0, 0.5))), url("/src/assets/img/main_landing.jpg");
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(255, 0, 0, 0.5)), url("/src/assets/img/main_landing.jpg");
-  background-size: cover;
-}
-
-body .main-landing-content {
-  padding: 50px;
-  text-align: center;
-  margin-bottom: 45px;
-  border-radius: 10px;
-  background: rgba(0, 0, 0, 0.3);
-}
-
-body #projects {
-  height: 80vh;
-  padding: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 0, 0, 0.5)), to(rgba(2, 0, 36, 0.6))), url("/src/assets/img/projects.jpg");
-  background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(2, 0, 36, 0.6)), url("/src/assets/img/projects.jpg");
-  background-size: cover;
-}
-
-body #resume {
-  height: 80vh;
-  padding: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(2, 0, 36, 0.6)), to(rgba(3, 6, 51, 0.8))), url("/src/assets/img/resume.jpg");
-  background-image: linear-gradient(to bottom, rgba(2, 0, 36, 0.6), rgba(3, 6, 51, 0.8)), url("/src/assets/img/resume.jpg");
-  background-size: cover;
-}
-
-body #contact {
-  height: 60vh;
-  padding: 10%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(3, 6, 51, 0.8)), to(rgba(0, 0, 0, 0.5))), url("/src/assets/img/contact.jpg");
-  background-image: linear-gradient(to bottom, rgba(3, 6, 51, 0.8), rgba(0, 0, 0, 0.5)), url("/src/assets/img/contact.jpg");
-  background-size: cover;
-}
-
+html,
+body,
 main {
-  background-color: mediumaquamarine;
+  background: #191919;
+  color: #8dcffc;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Sans Pro', Helvetica, sans-serif;
+}
+
+#header {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: left;
+  -ms-flex-align: left;
+  align-items: left;
+  border-radius: 15px;
+  border: 1px solid #8dcffc;
+  margin: 20px 10px;
 }
