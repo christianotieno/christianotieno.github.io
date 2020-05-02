@@ -1,0 +1,289 @@
+html,
+body,
+main {
+  color: #8dcffc;
+  text-align: center;
+  background: #191919;
+  font-family: 'Sans Pro', Helvetica, sans-serif;
+}
+
+.sidebar-wrapper {
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 40%;
+  right: 552px;
+  opacity: 0.5;
+  height: 100vh;
+  position: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.5))), url("../assets/img/main_page/christian.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("../assets/img/main_page/christian.png");
+}
+
+.social_icons {
+  padding: 0;
+  margin: 10px;
+  max-height: 35px;
+}
+
+.top-image {
+  max-height: 600px;
+}
+
+.about_container {
+  margin: 20% 0 10%;
+}
+
+.about {
+  width: auto;
+  height: auto;
+  margin-top: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 36px;
+  line-height: 42px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Museosans 900', sans-serif;
+}
+
+.more-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 45px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.about-copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2%;
+  line-height: 1;
+  font-size: 1.3em;
+  color: #011627ff;
+  border-radius: 45px;
+  font-weight: bolder;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-family: 'Museosans 100', sans-serif;
+}
+
+.about-copy .link {
+  color: #266a2e;
+  text-decoration: none;
+}
+
+.about-copy .link:hover {
+  color: #1dcaff;
+}
+
+.social {
+  opacity: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-top: 10px;
+  margin-top: 45px;
+  margin-left: 20px;
+  margin-bottom: 65px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#signature {
+  max-width: 400px;
+}
+
+.content-wrapper {
+  width: 60%;
+  float: none;
+  clear: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 40%;
+  position: static;
+  overflow: visible;
+  max-width: 1200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.project_section {
+  width: 100%;
+  height: auto;
+  padding: 5% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.project-text {
+  line-height: 1.5;
+}
+
+.rails-tic-tac-toe-text {
+  margin-top: 20%;
+  line-height: 1.5;
+  color: #54e7c7;
+  margin-bottom: 5%;
+}
+
+#roshan-text,
+#todo-text {
+  line-height: 1.5;
+  color: #011627ff;
+}
+
+div.btn-wrapper {
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+div.btn-wrapper a {
+  margin: 5px;
+  font-size: 15px;
+  padding: 5px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  color: #206db6;
+  border: 2px solid #206db6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.btn-wrapper a:hover {
+  color: white;
+  background-color: #206db6;
+}
+
+div.skills > div {
+  margin: 5px;
+  font-size: 15px;
+  padding: 5px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  color: #206db6;
+  border: 2px solid #206db6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#section_1 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4b93d), to(#f4b93d));
+  background-image: linear-gradient(180deg, #f4b93d, #f4b93d);
+}
+
+#section_1 h2 {
+  color: #005ba9;
+}
+
+#section_2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../assets/img/main_page/tic.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/main_page/tic.png");
+}
+
+#section_2 h2 {
+  color: #54e7c7;
+}
+
+#section_3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#54e7c7), to(#54e7c7));
+  background-image: linear-gradient(180deg, #54e7c7, #54e7c7);
+}
+
+#section_3 h2 {
+  color: #011627ff;
+}
+
+#section_4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../assets/img/main_page/rails_fb.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/main_page/rails_fb.png");
+}
+
+#section_4 h2 {
+  color: #005ba9;
+}
+
+#section_5 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#011627ff), to(#011627ff));
+  background-image: linear-gradient(180deg, #011627ff, #011627ff);
+}
+
+#section_5 h2 {
+  color: #f4b93d;
+}
+
+#section_6 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url("../assets/img/main_page/resume.jpg");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../assets/img/main_page/resume.jpg");
+}
+
+#section_6 h2 {
+  color: #f4b93d;
+}
+
+.resume {
+  width: 25vw;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5% auto;
+  border-radius: 45px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quote {
+  margin: 5% 0;
+}
+
+.page-footer {
+  width: 60%;
+  float: none;
+  clear: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 40%;
+  position: static;
+  overflow: visible;
+  max-width: 1200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #54e7c7;
+}
+
+.page-footer .footer-link {
+  color: #54e7c7;
+}
