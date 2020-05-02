@@ -1,93 +1,74 @@
-$font-stack:  Calibre, sans-serif;
-$primary-color: #fff;
-$red-color: #b80f0a;
-$blue-color:  #030633;
-
 html,
 body,
 main {
-  background: #191919;
   color: #8dcffc;
-  height: 100vh;
   text-align: center;
+  background: #191919;
   font-family: 'Sans Pro', Helvetica, sans-serif;
 }
 
-#header {
-  justify-content: space-between;
-  align-items: left;
-  border-radius: 15px;
-  border: 1px solid #8dcffc;
-  margin: 20px 10px;
-}
-
 .sidebar-wrapper {
-  position: fixed;
   left: 0;
   top: 0;
-  right: 552px;
   bottom: 0;
   width: 40%;
-  height: 100vh;
-  padding: 75px 85px 50px;
+  right: 552px;
   opacity: 0.5;
-  background-repeat: no-repeat;
+  height: 100vh;
+  position: fixed;
   background-size: cover;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../assets/img/christian.png');
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../assets/img/main_page/christian.png');
 }
 
 .social_icons {
-  height: 50px;
+  padding: 0;
   margin: 10px;
-  margin-right: 10px;
-  padding-right: 0;
+  max-height: 35px;
 }
 
-.iphone {
-  height: 600px;
+.top-image {
+  max-height: 600px;
 }
 
 .about_container {
-  position: absolute;
-  left: 85px;
-  right: 0;
-  bottom: 15%;
-  width: 65%;
+  margin: 20% 0 10%;
 }
 
 .about {
-  display: flex;
   width: auto;
   height: auto;
-  justify-content: center;
   margin-top: 0;
-  font-family: 'Museosans 900', sans-serif;
+  display: flex;
   font-size: 36px;
   line-height: 42px;
+  justify-content: center;
+  font-family: 'Museosans 900', sans-serif;
 }
 
 .more-about {
-  border: 1px solid #eee;
-  background-color: rgba(255, 255, 255, 0.6);
+  display: flex;
   border-radius: 45px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.6);
 }
 
 .about-copy {
-  display: block;
-  width: 100%;
-  margin-top: 25px;
-  flex-direction: column;
-  align-items: flex-start;
-  font-family: 'Museosans 100', sans-serif;
-  line-height: 26px;
-  border-radius: 45px;
-  font-weight: bolder;
+  display: flex;
+  margin-top: 2%;
+  line-height: 1;
   font-size: 1.3em;
   color: #011627ff;
+  border-radius: 45px;
+  font-weight: bolder;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Museosans 100', sans-serif;
 
   .link {
-    text-decoration: none;
     color: #266a2e;
+    text-decoration: none;
   }
 
   .link:hover {
@@ -96,31 +77,38 @@ main {
 }
 
 .social {
-  display: flex;
-  margin-top: 45px;
-  margin-bottom: 65px;
   opacity: 1;
+  display: flex;
   border-top: 10px;
+  margin-top: 45px;
   margin-left: 20px;
+  margin-bottom: 65px;
   justify-content: center;
 }
 
+#signature {
+  max-width: 400px;
+}
+
 .content-wrapper {
-  position: static;
-  overflow: visible;
   width: 60%;
-  max-width: 1200px;
-  margin-left: 40%;
   float: none;
   clear: none;
+  display: flex;
+  margin-left: 40%;
+  position: static;
+  overflow: visible;
+  max-width: 1200px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .project_section {
   width: 100%;
-  height: 90vh;
-  padding: 65px;
-  background-repeat: no-repeat;
+  height: auto;
+  padding: 5% 0;
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .project-text {
@@ -128,16 +116,16 @@ main {
 }
 
 .rails-tic-tac-toe-text {
-  margin-top: 300px;
-  color: #54e7c7;
+  margin-top: 20%;
   line-height: 1.5;
-  margin-bottom: 100px;
+  color: #54e7c7;
+  margin-bottom: 5%;
 }
 
 #roshan-text,
 #todo-text {
-  color: #011627ff;
   line-height: 1.5;
+  color: #011627ff;
 }
 
 div.btn-wrapper {
@@ -145,30 +133,30 @@ div.btn-wrapper {
 }
 
 div.btn-wrapper a {
-  display: inline-block;
-  border: 2px solid rgb(32, 109, 182);
-  border-radius: 4px;
-  padding: 5px 6px;
   margin: 5px;
-  color: rgb(32, 109, 182);
   font-size: 15px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 6px;
+  border-radius: 4px;
+  display: inline-block;
   text-decoration: none;
+  color: rgb(32, 109, 182);
+  border: 2px solid rgb(32, 109, 182);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 div.btn-wrapper a:hover {
-  background-color: rgb(32, 109, 182);
   color: white;
+  background-color: rgb(32, 109, 182);
 }
 
 div.skills > div {
-  display: inline-block;
-  border: 2px solid rgb(32, 109, 182);
-  border-radius: 4px;
-  padding: 5px 6px;
   margin: 5px;
-  color: rgb(32, 109, 182);
   font-size: 15px;
+  padding: 5px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  color: rgb(32, 109, 182);
+  border: 2px solid rgb(32, 109, 182);
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -181,7 +169,7 @@ div.skills > div {
 }
 
 #section_2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/img/tic.png');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/img/main_page/tic.png');
 
   h2 {
     color: #54e7c7;
@@ -197,7 +185,7 @@ div.skills > div {
 }
 
 #section_4 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/img/rails_fb.png');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/img/main_page/rails_fb.png');
 
   h2 {
     color: #005ba9;
@@ -213,7 +201,7 @@ div.skills > div {
 }
 
 #section_6 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('../assets/img/resume.jpg');
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('../assets/img/main_page/resume.jpg');
 
   h2 {
     color: #f4b93d;
