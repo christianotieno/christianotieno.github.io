@@ -1,4 +1,5 @@
 assets/
+_config.yml
 main.min.css
 main.css.map
 package-lock.json
