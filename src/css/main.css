@@ -245,6 +245,24 @@ div.skills > div {
   color: #f4b93d;
 }
 
+.resume {
+  width: 25vw;
+  height: 25vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5% auto;
+  border-radius: 45px;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quote {
+  margin: 5% 0;
+}
+
 .page-footer {
   width: 60%;
   float: none;

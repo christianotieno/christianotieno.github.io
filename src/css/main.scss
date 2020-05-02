@@ -209,6 +209,20 @@ div.skills > div {
   }
 }
 
+.resume {
+  width: 25vw;
+  height: 25vh;
+  display: flex;
+  margin: 5% auto;
+  border-radius: 45px;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.quote {
+  margin: 5% 0;
+}
+
 .page-footer {
   width: 60%;
   float: none;
