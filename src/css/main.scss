@@ -1,3 +1,4 @@
+
 html,
 body,
 main {
@@ -205,5 +206,23 @@ div.skills > div {
 
   h2 {
     color: #f4b93d;
+  }
+}
+
+.page-footer {
+  width: 60%;
+  float: none;
+  clear: none;
+  display: flex;
+  margin-left: 40%;
+  position: static;
+  overflow: visible;
+  max-width: 1200px;
+  flex-direction: column;
+  justify-content: center;
+  color: #54e7c7;
+
+  .footer-link {
+    color: #54e7c7;
   }
 }

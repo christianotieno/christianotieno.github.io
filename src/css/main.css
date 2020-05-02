@@ -244,3 +244,28 @@ div.skills > div {
 #section_6 h2 {
   color: #f4b93d;
 }
+
+.page-footer {
+  width: 60%;
+  float: none;
+  clear: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 40%;
+  position: static;
+  overflow: visible;
+  max-width: 1200px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #54e7c7;
+}
+
+.page-footer .footer-link {
+  color: #54e7c7;
+}
