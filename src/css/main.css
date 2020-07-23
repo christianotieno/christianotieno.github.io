@@ -28,6 +28,11 @@ main {
   max-height: 35px;
 }
 
+.social_icons:hover {
+  background-color: grey;
+  border-radius: 50%;
+}
+
 .top-image {
   max-height: 600px;
 }
@@ -152,8 +157,7 @@ main {
   margin-bottom: 5%;
 }
 
-#roshan-text,
-#todo-text {
+.different-text {
   line-height: 1.5;
   color: #011627ff;
 }
@@ -191,99 +195,92 @@ div.skills > div {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#section_1 {
+.section_yellow {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#f4b93d), to(#f4b93d));
   background-image: linear-gradient(180deg, #f4b93d, #f4b93d);
 }
 
-#section_1 h2 {
+.section_yellow h2 {
   color: #005ba9;
 }
 
-#section_2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../assets/img/main_page/tic.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/main_page/tic.png");
-}
-
-#section_2 h2 {
-  color: #54e7c7;
-}
-
-#section_3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#54e7c7), to(#54e7c7));
-  background-image: linear-gradient(180deg, #54e7c7, #54e7c7);
-}
-
-#section_3 h2 {
-  color: #011627ff;
-}
-
-#section_4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../assets/img/main_page/rails_fb.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/main_page/rails_fb.png");
-}
-
-#section_4 h2 {
-  color: #005ba9;
-}
-
-#section_5 {
+.section_blue {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#011627ff), to(#011627ff));
   background-image: linear-gradient(180deg, #011627ff, #011627ff);
 }
 
-#section_5 h2 {
+.section_blue h2 {
   color: #f4b93d;
 }
 
-#section_6 {
+.section_2 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../assets/img/main_page/tic.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/main_page/tic.png");
+}
+
+.section_2 h2 {
+  color: #54e7c7;
+}
+
+.section_4 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../assets/img/main_page/rails_fb.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/main_page/rails_fb.png");
+}
+
+.section_4 h2 {
+  color: #005ba9;
+}
+
+.section_6 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url("../assets/img/main_page/resume.jpg");
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../assets/img/main_page/resume.jpg");
 }
 
-#section_6 h2 {
+.section_6 h2 {
   color: #f4b93d;
+}
+
+.list-group {
+  margin: 0 15%;
+  list-style: none;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.list-group h5 {
+  color: #f4b93d;
+}
+
+.list-item {
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 2% 0;
 }
 
 .resume {
   width: 25vw;
-  height: 25vh;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 5% auto;
-  border-radius: 45px;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quote {
-  margin: 5% 0;
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  background-color: #191919;
 }
 
-.page-footer {
-  width: 60%;
-  float: none;
-  clear: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 40%;
-  position: static;
-  overflow: visible;
-  max-width: 1200px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  color: #54e7c7;
+footer ul {
+  list-style-type: none;
 }
 
-.page-footer .footer-link {
-  color: #54e7c7;
+footer ul li {
+  display: inline;
+  margin: 0 15px;
 }
