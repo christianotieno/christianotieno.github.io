@@ -28,6 +28,11 @@ main {
   max-height: 35px;
 }
 
+.social_icons:hover {
+  background-color: grey;
+  border-radius: 50%;
+}
+
 .top-image {
   max-height: 600px;
 }
@@ -123,8 +128,7 @@ main {
   margin-bottom: 5%;
 }
 
-#roshan-text,
-#todo-text {
+.different-text {
   line-height: 1.5;
   color: #011627ff;
 }
@@ -161,7 +165,7 @@ div.skills > div {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-#section_1 {
+.section_yellow {
   background-image: linear-gradient(180deg, #f4b93d, #f4b93d);
 
   h2 {
@@ -169,31 +173,7 @@ div.skills > div {
   }
 }
 
-#section_2 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/img/main_page/tic.png');
-
-  h2 {
-    color: #54e7c7;
-  }
-}
-
-#section_3 {
-  background-image: linear-gradient(180deg, #54e7c7, #54e7c7);
-
-  h2 {
-    color: #011627ff;
-  }
-}
-
-#section_4 {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/img/main_page/rails_fb.png');
-
-  h2 {
-    color: #005ba9;
-  }
-}
-
-#section_5 {
+.section_blue {
   background-image: linear-gradient(180deg, #011627ff, #011627ff);
 
   h2 {
@@ -201,7 +181,23 @@ div.skills > div {
   }
 }
 
-#section_6 {
+.section_2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/img/main_page/tic.png');
+
+  h2 {
+    color: #54e7c7;
+  }
+}
+
+.section_4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../assets/img/main_page/rails_fb.png');
+
+  h2 {
+    color: #005ba9;
+  }
+}
+
+.section_6 {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url('../assets/img/main_page/resume.jpg');
 
   h2 {
@@ -209,34 +205,43 @@ div.skills > div {
   }
 }
 
+.list-group {
+  margin: 0 15%;
+  list-style: none;
+  border-radius: 30px;
+  background-color: rgba(0, 0, 0, 0.9);
+
+  h5 {
+    color: #f4b93d;
+  }
+}
+
+.list-item {
+  border-radius: 30px;
+  font-weight: bold;
+  margin: 2% 0;
+}
+
 .resume {
   width: 25vw;
-  height: 25vh;
+  height: auto;
   display: flex;
   margin: 5% auto;
-  border-radius: 45px;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.quote {
-  margin: 5% 0;
+footer {
+  font-size: 0.8em;
+  text-align: center;
+  background-color: #191919;
 }
 
-.page-footer {
-  width: 60%;
-  float: none;
-  clear: none;
-  display: flex;
-  margin-left: 40%;
-  position: static;
-  overflow: visible;
-  max-width: 1200px;
-  flex-direction: column;
-  justify-content: center;
-  color: #54e7c7;
+footer ul {
+  list-style-type: none;
+}
 
-  .footer-link {
-    color: #54e7c7;
-  }
+footer ul li {
+  display: inline;
+  margin: 0 15px;
 }
