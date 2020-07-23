@@ -13,7 +13,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/ChristianOtieno/restaurant-page/feature/restraunt/dist/index.html)
+[Live Link](https://christianotieno.github.io/)
 
 ## Authors Section
 
@@ -27,7 +27,7 @@ Additional description about the project and its features.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ChristianOtieno/portfolio/issues).
+Feel free to check the [issues page](https://github.com/christianotieno/christianotieno.github.io/issues).
 
 ## Show your support
 
