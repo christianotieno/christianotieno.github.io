@@ -4,7 +4,7 @@
 
 ![screenshot](./src/assets/img/main_page/screenshot.png)
 
-Additional description about the project and its features.
+A summary description of the project and its features illustrated below.
 
 ## Built With
 
@@ -15,9 +15,40 @@ Additional description about the project and its features.
 
 [Live Link](https://christianotieno.github.io/)
 
-## Authors Section
+## Getting Started
 
-👤 **Author**
+**Below are the instructions on setting up the project locally.**
+
+To get a local copy up and running follow these simple example steps.
+
+### Setup and installation
+
+```
+git clone git@github.com:christianotieno/christianotieno.github.io.git
+```
+
+### Usage
+
+```
+npm install
+```
+
+> This action will install all the project dependencies.
+
+### Run tests
+
+```
+npx stylelint .
+```
+
+### Run the site
+
+Run with a live server installed on your code editor.
+
+
+## Author
+
+👤 **Christian Otieno**
 
 - Github: [@ChristianOtieno](https://github.com/christianotieno)
 - Twitter: [@iamchrisotieno](https://twitter.com/iamchrisotieno)
