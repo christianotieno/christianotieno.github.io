@@ -2,6 +2,7 @@
   main {
     width: 100vw;
   }
+
   .sidebar-wrapper {
     background-image: none;
     position: fixed;
@@ -9,19 +10,23 @@
     width: 100vw;
     bottom: 10vh;
   }
+
   .about_container {
     border-radius: 0;
     width: 100vw;
     padding: 0;
     margin: 0;
   }
+
   .more-about {
     border-radius: 0;
     height: 50%;
   }
+
   #signature {
     display: none;
   }
+
   .content-wrapper {
     position: absolute;
     width: 100vw;
@@ -30,8 +35,8 @@
     left: 0;
     right: 0;
   }
+
   .rails-tic-tac-toe-text {
     font-size: 1.2em;
   }
 }
-/*# sourceMappingURL=media_queries.css.map */
