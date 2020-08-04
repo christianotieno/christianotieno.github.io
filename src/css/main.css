@@ -1,7 +1,7 @@
 html,
 body,
 main {
-  color: #8dcffc;
+  color: #1dcaff;
   text-align: center;
   background: #191919;
   font-family: 'Sans Pro', Helvetica, sans-serif;
@@ -51,8 +51,8 @@ main {
   font-size: 36px;
   line-height: 42px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: 'Museosans 900', sans-serif;
 }
 
@@ -63,11 +63,11 @@ main {
   border-radius: 45px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -83,21 +83,21 @@ main {
   font-weight: bolder;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-family: 'Museosans 100', sans-serif;
 }
 
 .about-copy .link {
-  color: #266a2e;
+  color: #011627ff;
   text-decoration: none;
 }
 
 .about-copy .link:hover {
-  color: #1dcaff;
+  color: #eee;
 }
 
 .social {
@@ -110,8 +110,8 @@ main {
   margin-left: 20px;
   margin-bottom: 65px;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 #signature {
@@ -131,11 +131,11 @@ main {
   max-width: 1200px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .project_section {
@@ -150,21 +150,15 @@ main {
   line-height: 1.5;
 }
 
-.rails-tic-tac-toe-text {
+.tic-tac-toe-text {
   margin-top: 20%;
-  line-height: 1.5;
-  color: #54e7c7;
+  line-height: 1.2;
   margin-bottom: 5%;
-}
-
-.different-text {
-  line-height: 1.5;
-  color: #011627ff;
 }
 
 div.btn-wrapper {
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 div.btn-wrapper a {
@@ -180,7 +174,7 @@ div.btn-wrapper a {
 }
 
 div.btn-wrapper a:hover {
-  color: white;
+  color: #eee;
   background-color: #206db6;
 }
 
@@ -195,66 +189,51 @@ div.skills > div {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.section_yellow {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#f4b93d), to(#f4b93d));
-  background-image: linear-gradient(180deg, #f4b93d, #f4b93d);
-}
-
-.section_yellow h2 {
-  color: #005ba9;
-}
-
 .section_blue {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#011627ff), to(#011627ff));
   background-image: linear-gradient(180deg, #011627ff, #011627ff);
 }
 
-.section_blue h2 {
-  color: #f4b93d;
-}
-
 .section_2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../assets/img/main_page/tic.png");
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/main_page/tic.png");
-}
-
-.section_2 h2 {
-  color: #54e7c7;
-}
-
-.section_4 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../assets/img/main_page/rails_fb.png");
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/main_page/rails_fb.png");
 }
 
-.section_4 h2 {
-  color: #005ba9;
+.section_3 {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url("../assets/img/main_page/tic.png");
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../assets/img/main_page/tic.png");
 }
 
-.section_6 {
+.section_4 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.4))), url("../assets/img/main_page/resume.jpg");
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("../assets/img/main_page/resume.jpg");
 }
 
-.section_6 h2 {
-  color: #f4b93d;
-}
-
 .list-group {
-  margin: 0 15%;
+  margin: 0 8%;
   list-style: none;
   border-radius: 30px;
   background-color: rgba(0, 0, 0, 0.9);
+  list-style: none;
 }
 
-.list-group h5 {
-  color: #f4b93d;
+.list-group ul {
+  list-style: none;
+}
+
+.list-group ul li h5 a {
+  color: #1dcaff;
 }
 
 .list-item {
   border-radius: 30px;
   font-weight: bold;
-  margin: 2% 0;
+  margin: 2% auto;
+}
+
+.list-item a:hover {
+  color: #eee;
+  text-decoration: none;
 }
 
 .resume {
@@ -265,15 +244,16 @@ div.skills > div {
   display: flex;
   margin: 5% auto;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
 footer {
   font-size: 0.8em;
   text-align: center;
-  background-color: #191919;
+  color: #1dcaff;
+  background-color: #011627ff;
 }
 
 footer ul {
@@ -284,3 +264,13 @@ footer ul li {
   display: inline;
   margin: 0 15px;
 }
+
+footer ul li a:hover {
+  color: #EEE;
+  text-decoration: none;
+}
+
+.footer-links {
+  color: #1dcaff;
+}
+/*# sourceMappingURL=main.css.map */
