@@ -2,8 +2,7 @@
 
 ## This is my Portfolio page code repository
 
-- The website showcases some of my favorite projects in web development and the technologies I am best skilled at.
-- It consists of a sticky right section that houses all the social links and what I am all about and a movable right section that contents the project presented in a list format.
+- The website showcases some of my favorite projects in web development and the technologies I am best skilled at. It consists of a sticky right section that houses all the social links and what I am all about and a movable right section that contents the project presented in a list format.
 
 ![screenshot](./src/assets/img/main_page/screenshot.png)
 
