@@ -113,8 +113,18 @@ main {
   width: 100%;
   height: auto;
   padding: 5% 0;
+}
+
+.project_alt_back {
+  height: 80vh;
+  padding: 5% 0;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.bd_top_bottom {
+  border-top: 1px solid #1dcaff;
+  border-bottom: 1px solid #1dcaff;
 }
 
 .project-text {
@@ -153,7 +163,7 @@ div.btn-wrapper a {
 
 footer ul li {
   display: inline;
-  margin: 0 15px;
+  margin: 10px 15px;
 
   a:hover {
     color: #eee;
@@ -206,7 +216,7 @@ div.skills > div {
 
 .list-group {
   margin: 0 8%;
-  border-radius: 30px;
+  border-radius: 12px;
   background-color: rgba(0, 0, 0, 0.9);
   list-style: none;
 }
@@ -217,6 +227,7 @@ footer ul {
 
 .list-group ul {
   list-style: none;
+  padding: 0;
 }
 
 .resume {
