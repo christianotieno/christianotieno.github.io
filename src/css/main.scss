@@ -121,9 +121,8 @@ main {
   height: 80vh;
 }
 
-.bd_top_bottom {
-  border-top: 1px solid #1dcaff;
-  border-bottom: 1px solid #1dcaff;
+.bd_bottom {
+  border-bottom: 1px dashed #1dcaff;
 }
 
 .project-text {

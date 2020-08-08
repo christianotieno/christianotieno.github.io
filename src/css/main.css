@@ -51,8 +51,8 @@ main {
   font-size: 36px;
   line-height: 42px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-family: 'Museosans 900', sans-serif;
 }
 
@@ -63,11 +63,11 @@ main {
   border-radius: 45px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
@@ -83,11 +83,11 @@ main {
   font-weight: bolder;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   font-family: 'Museosans 100', sans-serif;
 }
 
@@ -110,8 +110,8 @@ main {
   margin-left: 20px;
   margin-bottom: 65px;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 #signature {
@@ -131,11 +131,11 @@ main {
   max-width: 1200px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .project_section {
@@ -150,9 +150,8 @@ main {
   height: 80vh;
 }
 
-.bd_top_bottom {
-  border-top: 1px solid #1dcaff;
-  border-bottom: 1px solid #1dcaff;
+.bd_bottom {
+  border-bottom: 1px dashed #1dcaff;
 }
 
 .project-text {
@@ -167,7 +166,7 @@ main {
 
 div.btn-wrapper {
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 h3 {
@@ -271,8 +270,8 @@ footer ul {
   display: flex;
   margin: 5% auto;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -286,4 +285,3 @@ footer {
 .footer-links {
   color: #1dcaff;
 }
-/*# sourceMappingURL=main.css.map */
